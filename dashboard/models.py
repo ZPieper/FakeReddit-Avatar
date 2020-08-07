@@ -20,3 +20,5 @@ class Post(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     # author_id
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name="posts")
+
+Hi Shawn!
